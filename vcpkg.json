@@ -3,7 +3,7 @@
   "vcpkg-configuration": {
     "default-registry": {
       "kind": "builtin",
-      "baseline": "37d46edf0f2024c3d04997a2d432d59278ca1dff"
+      "baseline": "d5ec528843d29e3a52d745a64b469f810b2cedbf"
     },
     "registries": [
       {
