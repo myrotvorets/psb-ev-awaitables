@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   update-baseline:
+    name: Update vcpkg.json baselines
     runs-on: ubuntu-latest
     permissions:
       contents: write
