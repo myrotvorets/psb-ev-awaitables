@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "builtin",
+      "baseline": "37d46edf0f2024c3d04997a2d432d59278ca1dff"
+    },
+    "registries": [
+      {
+        "kind": "git",
+        "baseline": "98c7cfa6877c00b7ce881d0a27bae809726a9e98",
+        "repository": "https://github.com/sjinks/vcpkg-registry",
+        "packages": [
+          "wwa-scope-action"
+        ]
+      }
+    ]
+  },
+  "dependencies": [
+    "gtest",
+    "libev",
+    "wwa-scope-action"
+  ]
+}
